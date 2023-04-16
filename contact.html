@@ -3,12 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Contuct Us</title>
+        <title>Home </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="icon" href="img/favicon.png" />
-        <!-- Place favicon.ico in the root directory -->
+        <!--<link rel="icon" href="img/favicon.png" />
+         Place favicon.ico in the root directory -->
 		<!-- google-font -->
 		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet"> 
 		<!-- all css here -->
@@ -18,12 +18,10 @@
         <link rel="stylesheet" href="css/animate.css">
 		<!-- jquery-ui.min css -->
         <link rel="stylesheet" href="css/jquery-ui.min.css">
-		<!-- nivo-slider css -->
-        <link rel="stylesheet" href="css/nivo-slider.css">
-		<!-- magnific-popup css -->
-        <link rel="stylesheet" href="css/magnific-popup.css">		
 		<!-- meanmenu css -->
         <link rel="stylesheet" href="css/meanmenu.min.css">
+		<!-- nivo-slider css -->
+        <link rel="stylesheet" href="css/nivo-slider.css">		
 		<!-- owl.carousel css -->
         <link rel="stylesheet" href="css/owl.carousel.css">
 		<!--linearicons css -->
@@ -32,49 +30,24 @@
         <link rel="stylesheet" href="css/font-awesome.min.css">
 		<!-- style css -->
 		<link rel="stylesheet" href="style.css">
+		<script src="javascript/searchbar.js" defer></script>
 		<!-- responsive css -->
         <link rel="stylesheet" href="css/responsive.css" />
-		<!-- modernizr css -->
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+		
+		
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <!-- Add your site or application content here -->
-		<!-- header-start -->
+       
 		<header>
 			<div class="header-top-area ptb-10 hidden-xs header-top-area-4">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-3 col-md-4 col-sm-5">
 							<div class="header-top-right header-top-left-4">
-								<p>ΔΩΡΕΑΝ ΜΕΤΑΦΟΡΙΚΑ</p>
+								<p><b><i>ΔΩΡΕΑΝ ΜΕΤΑΦΟΡΙΚΑ</i></b></p>
 							</div>
 						</div>					
-						<div class="col-lg-9 col-md-8 col-sm-7 header-top-right-4">
-							<!--<div class="dropdown header-left-menu">
-								  <button class="btn btn-default header-left-menu dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-									<img src="img/eng/1.jpg" alt="" /> English 1 <i class="fa fa-angle-down"></i>
-								  </button>
-								  <ul class="dropdown-menu">
-									  <li><a href="#"><img src="img/eng/2.jpg" alt="" /> English 1</a></li>
-									  <li><a href="#"><img src="img/eng/3.jpg" alt="" /> English 2</a></li>
-									  <li><a href="#"><img src="img/eng/1.jpg" alt="" /> English 3</a></li>
-								  </ul>
-							</div>-->
-							<!--<div class="dropdown header-left-menu">
-								<button class="btn btn-default header-left-menu dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-								GBP  <i class="fa fa-angle-down"></i>
-								</button>
-								 <ul class="dropdown-menu">
-									<li><a href="#"> EUR - Euro</a></li>
-									<li><a href="#"> USD - US Dollar</a></li>
-								</ul>
-							</div>-->
 						
-						</div>
 					</div>
 				</div>
 			</div>
@@ -83,12 +56,36 @@
 					<div class="row">
 
 						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-							<div class="menu-search-box scnd-fix">
-								<form action="#">
-									<input type="text" placeholder="Search here..."/>
-									<button><span class="lnr lnr-magnifier"></span></button>
-								</form>
-							</div>
+							<div onclick="hideallfunction()" id="hideall"></div>
+
+							<div id="search-section-js" class="searchsection">
+    						<div role="search" class="search">
+    							<input tabindex="1" id="search-bar-js" class="searchbar" type="search" aria-label="Search text" placeholder="Search..." name="search">
+    								<button tabindex="-1" class="searchbutton" id="close-img-js" aria-label="Cancel"><img src="media/close/round_close_black_24dp.png" alt="cancel" class="closeimg globalsearchremove" class="searchbutton" id="close-img-js" aria-label="Cancel"></button>
+   								 <button tabindex="2" class="searchbutton" id="search-img-js" aria-label="Search"><img src="media/search/round_search_black_24dp.png" alt="search" class="searchimg"></button>  
+  							</div>
+    <div class="middle">
+    <div class="borderbetween globalsearchremove"></div>
+    </div>
+    <div class="middle">
+  <ul tabindex="3" class="list globalsearchremove">
+    <li class="section" role="option"><a href="#"><img src="img/product/1.1.jpg"/><b><i>&nbsp <FONT COLOR="CYAN">Earrings (σκουλαρίκια)</FONT></i></b></a></li>
+    <li class="section" role="option"><a href="#"><img src="img/product/3.3.jpg"/><b><i>&nbsp <FONT COLOR="PINK">Earrings (σκουλαρίκια)</FONT></i></b></a></li>
+    <li class="section" role="option"><a href="#"><img src="img/product/5.5.jpg"/><b><i>&nbsp <FONT COLOR="CYAN">Earrings (σκουλαρίκια)</FONT></i></b></a></li>
+    <li class="section" role="option"><a href="#"><img src="img/product/9.9.jpg"/><b><i>&nbsp <FONT COLOR="PINK">Earrings (σκουλαρίκια)</FONT></i></b></a></li>
+    <li class="section" role="option"><a href="#"><img src="img/product/7.7.jpg"/><b><i>&nbsp <FONT COLOR="CYAN">Earrings (σκουλαρίκια)</FONT></i></b></a></li>
+    <li class="section" role="option"><a href="#"><img src="img/product/12.12.jpg"/><b><i>&nbsp <FONT COLOR="PINK">Earrings (σκουλαρίκια)</FONT></i></b></a></li>
+	<li class="section" role="option"><a href="#"><img src="img/product/13.13.jpg"/><b><i>&nbsp <FONT COLOR="CYAN">Earrings (σκουλαρίκια)</FONT></i></b></a></li>
+	<li class="section" role="option"><a href="#"><img src="img/product/14.14.jpg"/><b><i>&nbsp <FONT COLOR="PINK">Earrings (σκουλαρίκια)</FONT></i></b></a></li>
+	<li class="section" role="option"><a href="#"><img src="img/product/10.10.jpg"/><b><i>&nbsp <FONT COLOR="#90EE90">Necklace (Περιδέραια)</FONT></i></b></a></li>
+	<li class="section" role="option"><a href="#"><img src="img/product/8.8.jpg"/><b><i>&nbsp <FONT COLOR="CYAN">Necklace (Περιδέραια)</FONT></i></b></a></li>
+	<li class="section" role="option"><a href="#"><img src="img/product/6.6.jpg"/><b><i>&nbsp <FONT COLOR="GRAY">Bracelet (Βραχιόλια)</FONT></i></b></a></li>
+    <li class="noresult">Κανένα αποτέλεσμα</li>
+  </ul>
+  </div>
+  </div>
+</div>
+
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<div class="logo logo2">
