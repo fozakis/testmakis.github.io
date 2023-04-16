@@ -1324,6 +1324,7 @@ ul.footer-social li a {
 .footer-title{
 	position:relative;
 	margin-bottom:21px;
+
 }
 .footer-title::before {
 	background: #9d297e none repeat scroll 0 0;
@@ -1343,6 +1344,7 @@ ul.footer-social li a {
 }
 ul.usefull-link li {
     margin-bottom: 6px;
+	
 }
 ul.usefull-link li a {
     color: #ffffff;
@@ -1435,6 +1437,8 @@ ul.usefull-link li a:hover{
 	top: 101px;
 	vertical-align: top;
 }
+
+
 #map{
 	height:350px;
 }
@@ -2517,6 +2521,8 @@ ul.tab_menu li.active a {
 .footer-area-4 .footer-wrapper p {
   color: #444;
 }
+
+
 /* ---------20.Product-Details-Start ---------*/
 ul.sinple-tab-menu li a {
 	border: 1px solid #dedede;
