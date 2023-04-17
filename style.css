@@ -61,7 +61,7 @@ div.middle {
     border: 1px solid lightgray;
     border-radius: 20px;
     display: flex;
-    width: 300px;
+    width: 280px;
     flex-direction: column;
 }
 
