@@ -1519,60 +1519,47 @@ a.shopnow{
 .contact-area {
     background: #f6f6f6 none repeat scroll 0 0;
 }
-
-.contuct-info h4 {
-    display: block;
-    font-size: 16px;
-    font-weight: 900;
-    margin-bottom: 5px;
-    text-transform: uppercase;
+.contuct-info h4{
+	display: block;
+	font-size: 16px;
+	font-weight: 900;
+	margin-bottom: 5px;
+	text-transform: uppercase;	
+} 
+.contuct-info p{
+	color: #333333;
+	display: block;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom:0;  
 }
-
-.contuct-info p {
-    color: #333333;
-    display: block;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
-    margin-bottom: 0;
-}
-
 .search-box form {
     position: relative;
 }
-
 .search-box form input {
-    height: 48px;
-    width: 100%;
-    background: #ffffff none repeat scroll 0 0;
-    border: 1px solid #e6e6e6;
-    color: #909090;
-    font-weight: 300;
-    padding: 10px 65px 10px 10px;
+	height: 48px;
+	width: 100%;
+	background: #ffffff none repeat scroll 0 0;
+	border: 1px solid #e6e6e6;
+	color: #909090; 
+	font-weight: 300;
+	padding: 10px 65px 10px 10px;
 }
-
 .search-box button {
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    border-color: -moz-use-text-color -moz-use-text-color -moz-use-text-color #e1e1e1;
-    border-image: none;
-    border-style: none none none solid;
-    border-width: medium medium medium 1px;
-    height: 100%;
-    position: absolute;
-    right: 0;
-    width: 40px;
-}
-
-#unsubscribeMsg {
-    display: none;
-    color: #666;
-    font-size: 14px;
-    margin-top: 5px;
-    cursor: pointer;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border-color: -moz-use-text-color -moz-use-text-color -moz-use-text-color #e1e1e1;
+	border-image: none;
+	border-style: none none none solid;
+	border-width: medium medium medium 1px;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	width: 40px;
 }
 
 /* ---------13.Footer-Area-Start---------- */
