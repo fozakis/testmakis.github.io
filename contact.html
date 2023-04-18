@@ -230,15 +230,17 @@
 					</div>
 					<div class="col-lg-6 col-md-8 col-sm-12 col-lg-offset-1 col-xs-12">
 						<div class="search-box">
-							<form action="#">
-								<input type="email" placeholder="Enter your email address"/>
-								<button><span class="lnr lnr-envelope"></span></button>
+							<form action="#" id="emailSubscriptionForm">
+								<input type="email" id="emailAddress" placeholder="Enter your email address"/>
+								<button type="submit"><span class="lnr lnr-envelope"></span></button>
+								<div id="unsubscribeMsg" style="display:none;">You have successfully unsubscribed.</div>
 							</form>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		
 		<!-- contact-area-end -->
 		<!-- footer-area-start -->
 		<div class="footer-area footer-area-4 ptb-80">
