@@ -11,6 +11,7 @@
          Place favicon.ico in the root directory -->
 		<!-- google-font -->
 		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet"> 
+		<script src="js/index.js" defer></script>
 		<!-- all css here -->
 		<!-- bootstrap v3.3.6 css -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -206,33 +207,15 @@
 						<!-- price-slider-area-end -->
 						<!-- Category-start -->
 						<div class="category-area-start">
-							<div class="caregory">
-								<h3 class="bedroom-side-title">ΚΑΤΗΓΟΡΙΕΣ</h3>
-								<ul>
-									<li> <div class="checkbox">
-										<label>
-											<input type="checkbox"> ΒΡΑΧΙΟΛΙΑ <span>(1)</span>
-										</label>
-									</div>
-								    </li>
-								    	<li> <div class="checkbox">
-								    		<label>
-								    			<input type="checkbox"> ΣΚΟΥΛΑΡΙΚΙΑ <span>(8)</span>
-								    		</label>
-								    	</div>
-								        </li>
-								        	<li> <div class="checkbox">
-								        		<label>
-								        			<input type="checkbox"> ΠΕΡΙΔΕΡΑΙΑ <span>(2)</span>
-								        		</label>
-								        	</div>
-								            </li>
-
-
-									<!-- <li><a href="#">Nightstands <span>(5)</span></a></li>
-									<li><a href="#">Headboards <span>(67)</span></a></li> -->
-								</ul>
-							</div>
+							<div id="filter-container">
+								<label for="category-select"><FONT color="BLACK"><b>Category:</b></FONT></label>
+								<select id="category-select">
+								  <option value="all">All</option>
+								  <option value="Earrings">Earrings</option>
+								  <option value="bracelet">Bracelet</option>
+								  <option value="SETEarrings">Necklace</option>
+								</select>
+							  </div>
 						</div>
 						<!-- Category-end -->
 						<!-- .sideber-color-start -->
@@ -267,15 +250,17 @@
 								<div class="col-lg-10 col-md-9 col-sm-9 col-xs-12">
 									<div class="product-option">
 										<div class="porduct-option-left floatleft">
-											<span> Items 1-11 of 11</span>
+											<span>All Items 1-11 of 11</span>
 										</div>
 										
 									</div>
 								</div>
 							</div>
 							<div class="tab-content">
+								<div id="product-container">
 								<div class="tab-pane active" id="viewed">
 									<div class="row">
+										<div class="product" data-category="Earrings">
 										<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 											<div class="single-new-product mt-40 category-new-product">
 												<div class="product-img">
@@ -304,6 +289,8 @@
 												</div>
 											</div>
 										</div>
+									</div>
+									<div class="product" data-category="Earrings">
 										<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 											<div class="single-new-product mt-40 category-new-product">
 												<div class="product-img">
@@ -334,6 +321,8 @@
 												</div>
 											</div>
 										</div>
+									</div>
+									<div class="product" data-category="Earrings">
 										<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 											<div class="single-new-product mt-40 category-new-product">
 												<div class="product-img">
@@ -363,6 +352,8 @@
 												</div>
 											</div>
 										</div>
+										</div>
+										<div class="product" data-category="Earrings">
 										<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 											<div class="single-new-product mt-40 category-new-product">
 												<div class="product-img">
@@ -391,7 +382,8 @@
 												</div>
 											</div>
 										</div>
-										
+										</div>
+										<div class="product" data-category="Earrings">
 										<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 											<div class="single-new-product mt-40 category-new-product">
 												<div class="product-img">
@@ -420,6 +412,8 @@
 												</div>
 											</div>
 										</div>
+										</div>
+										<div class="product" data-category="Earrings">
 										<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 											<div class="single-new-product mt-40 category-new-product">
 												<div class="product-img">
@@ -449,6 +443,8 @@
 												</div>
 											</div>
 										</div>
+										</div>
+										<div class="product" data-category="Earrings">
 										<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 											<div class="single-new-product mt-40 category-new-product">
 												<div class="product-img">
@@ -478,6 +474,8 @@
 												</div>
 											</div>
 										</div>
+										</div>
+										<div class="product" data-category="Earrings">
 										<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 											<div class="single-new-product mt-40 category-new-product">
 												<div class="product-img">
@@ -507,6 +505,8 @@
 												</div>
 											</div>
 										</div>
+										</div>
+										<div class="product" data-category="SETEarrings">
 										<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 											<div class="single-new-product mt-40 category-new-product">
 												<div class="product-img">
@@ -536,6 +536,8 @@
 												</div>
 											</div>
 										</div>
+										</div>
+										<div class="product" data-category="SETEarrings">
 										<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 											<div class="single-new-product mt-40 category-new-product">
 												<div class="product-img">
@@ -566,6 +568,8 @@
 												</div>
 											</div>
 										</div>
+										</div>
+										<div class="product" data-category="bracelet">
 										<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 											<div class="single-new-product mt-40 category-new-product">
 												<div class="product-img">
@@ -596,6 +600,7 @@
 												</div>
 											</div>
 										</div>
+										</div>
 										
 										
 										
@@ -605,11 +610,12 @@
 								
 							</div>
 						</div>
+						</div>
 						<!-- category-products-area-end -->
 						<!-- pagination-area-start -->
 						<div class="pagination-area mt-40 pt-40">
 							<div class="pagination-text">
-								<p>Items 1-11 of 11</p>
+								<p>All Items 1-11 of 11</p>
 							</div>
 							
 						</div>
